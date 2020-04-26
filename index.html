@@ -4,151 +4,165 @@
 		<title>Мебельная фабрика SOFIA</title>
 		<meta charset="UTF-8">
 		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="css/animate.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="shortcut icon" href="favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="preload" href="fonts/montserrat/Montserrat-Bold.woff" as="font" type="font/woff" crossorigin>    
+    <link rel="preload" href="fonts/montserrat/Montserrat-Medium.woff" as="font" type="font/woff" crossorigin>  
+    <link rel="preload" href="fonts/montserrat/Montserrat-Regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/montserrat/Montserrat-SemiBold.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/lato/Lato-Regular.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="fonts/lato/Lato-Semibold.woff" as="font" type="font/woff" crossorigin>
 	</head>
 	<body>
 		<div class="wrapper">
-<header class="header">
-	<div class="container">
-		<div class="header__body">
-			<div class="header__column header-logo__wrap">
-				<a href="#" class="logo header-logo">
-					<img src="img/logo.png" alt="Логотип">
-				</a>
-
-				<p class="header-logo__text">Официальный сайт фабрики</p>
-			</div>
-
-			<div class="header__column">
-				<form action="" method="get" class="form-search">
-					<label for="site-search" class="sr-only">Поиск по сайту:</label>
-					<input class="form-search__input" type="search" id="site-search" name="q" aria-label="Поиск по сайту" placeholder="Введите название">
-
-					<button class="btn form-search__btn">Поиск</button>
-				</form>
-			</div>
-
-			<div class="header__column">
-
-				<div class="shopping-cart__wrap">
-					<a href="#" class="shopping-cart"></a>
-				</div>
-			</div>
-
-			<div class="header__column">
-				<a href="tel:+74952660848" class="header-phone">8 (495) 266-08-48</a>
-
-				<p class="header-phone__text">Звоните с 09:00 до 21:00 или&nbsp;<a href="#">закажите обратный звонок</a>
-				</p>
-			</div>
-
-			<div class="header__menu menu">
-				<div class="menu__icon icon-menu">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-
-				<nav class="menu__body">
-					<ul class="menu__body-list">
-						<li class="menu__body-item">
-							<a href="#" class="menu__body-link">О нас</a>
-						</li>
-
-						<li class="menu__body-item">
-							<a href="#" class="menu__body-link">Каталог</a>
-						</li>
-
-						<li class="menu__body-item">
-							<a href="#" class="menu__body-link">Статьи</a>
-						</li>
-
-						<li class="menu__body-item">
-							<a href="#" class="menu__body-link">Фото</a>
-						</li>
-
-						<li class="menu__body-item">
-							<a href="#" class="menu__body-link">Где купить</a>
-						</li>
-
-						<li class="menu__body-item">
-							<a href="#" class="menu__body-link">Дизайнеры</a>
-						</li>
-
-						<li class="menu__body-item">
-							<a href="#" class="menu__body-link">FAQ</a>
-						</li>
-
-						<li class="menu__body-item">
-							<a href="#" class="nav-list__link">Контакты</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
-
-	<nav class="nav">
-		<div class="container">
-			<ul class="nav-list">
-				<li class="nav-list__item">
-					<a href="#" class="nav-list__link">О нас</a>
-				</li>
-
-				<li class="nav-list__item">
-					<a href="#" class="nav-list__link">Каталог</a>
-				</li>
-
-				<li class="nav-list__item">
-					<a href="#" class="nav-list__link">Статьи</a>
-				</li>
-
-				<li class="nav-list__item">
-					<a href="#" class="nav-list__link">Фото</a>
-				</li>
-
-				<li class="nav-list__item">
-					<a href="#" class="nav-list__link">Где купить</a>
-				</li>
-
-				<li class="nav-list__item">
-					<a href="#" class="nav-list__link">Дизайнеры</a>
-				</li>
-
-				<li class="nav-list__item">
-					<a href="#" class="nav-list__link">FAQ</a>
-				</li>
-
-				<li class="nav-list__item">
-					<a href="#" class="nav-list__link">Контакты</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-</header>			<section class="intro">
+			<header class="header">
 				<div class="container">
-					<h1 class="intro__title">Мебельная фабрика SOFIA</h1>
+					<div class="header__body">
+						<div class="header__column header-logo__wrap">
+							<a href="#" class="logo header-logo">
+								<img src="img/logo.png" alt="Логотип">
+							</a>
 
-					<p class="intro__text">
+							<p class="header-logo__text">Официальный сайт фабрики</p>
+						</div>
+
+						<div class="header__column">
+							<form action="" method="get" class="form-search">
+								<label for="site-search" class="sr-only">Поиск по сайту:</label>
+								<input class="form-search__input" type="search" id="site-search" name="q" aria-label="Поиск по сайту" placeholder="Введите название">
+
+								<button class="btn form-search__btn">Поиск</button>
+							</form>
+						</div>
+
+						<div class="header__column">
+
+							<div class="shopping-cart__wrap">
+								<a href="#" class="shopping-cart"></a>
+							</div>
+						</div>
+
+						<div class="header__column">
+							<a href="tel:+74952660848" class="header-phone">8 (495) 266-08-48</a>
+
+							<p class="header-phone__text">Звоните с 09:00 до 21:00 или&nbsp;<a href="#">закажите обратный звонок</a>
+							</p>
+						</div>
+
+						<div class="header__menu menu">
+							<div class="menu__icon icon-menu">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+
+							<nav class="menu__body">
+								<ul class="menu__body-list">
+									<li class="menu__body-item">
+										<a href="#" class="menu__body-link">О нас</a>
+									</li>
+
+									<li class="menu__body-item">
+										<a href="#" class="menu__body-link">Каталог</a>
+									</li>
+
+									<li class="menu__body-item">
+										<a href="#" class="menu__body-link">Статьи</a>
+									</li>
+
+									<li class="menu__body-item">
+										<a href="#" class="menu__body-link">Фото</a>
+									</li>
+
+									<li class="menu__body-item">
+										<a href="#" class="menu__body-link">Где купить</a>
+									</li>
+
+									<li class="menu__body-item">
+										<a href="#" class="menu__body-link">Дизайнеры</a>
+									</li>
+
+									<li class="menu__body-item">
+										<a href="#" class="menu__body-link">FAQ</a>
+									</li>
+
+									<li class="menu__body-item">
+										<a href="#" class="nav-list__link">Контакты</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+
+				<nav class="nav">
+					<div class="container">
+						<ul class="nav-list">
+							<li class="nav-list__item">
+								<a href="#" class="nav-list__link">О нас</a>
+							</li>
+
+							<li class="nav-list__item">
+								<a href="#" class="nav-list__link">Каталог</a>
+							</li>
+
+							<li class="nav-list__item">
+								<a href="#" class="nav-list__link">Статьи</a>
+							</li>
+
+							<li class="nav-list__item">
+								<a href="#" class="nav-list__link">Фото</a>
+							</li>
+
+							<li class="nav-list__item">
+								<a href="#" class="nav-list__link">Где купить</a>
+							</li>
+
+							<li class="nav-list__item">
+								<a href="#" class="nav-list__link">Дизайнеры</a>
+							</li>
+
+							<li class="nav-list__item">
+								<a href="#" class="nav-list__link">FAQ</a>
+							</li>
+
+							<li class="nav-list__item">
+								<a href="#" class="nav-list__link">Контакты</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+
+			<section class="intro">
+				<div class="container">
+					<h1 class="intro__title wow fadeInLeft">Мебельная фабрика SOFIA</h1>
+
+					<p class="intro__text wow fadeInUp">
 						Российский производитель комплексных интерьерных решений «Sofia Home» для обустройства дома: межкомнатные и входные двери, потолочно-стеновые панели.
 					</p>
 
 					<button class="btn intro__btn">Сформировать предложение</button>
 
-					<div class="intro__image ibg">
-						<img src="img/intro/intro.jpg" alt="Картинка на главном экране">
+					<div class="intro__image ibg wow fadeInRight">
+						<picture>
+				      <source srcset="img/intro/intro.webp 1x" type="image/webp">
+				      <img src="img/intro/intro.jpg" alt="Картинка на главном экране">
+						</picture>
 					</div>
+
 				</div>
 			</section>
 
 			<section class="advantages">
 				<div class="container">
-					<h2 class="section-title">Наши преимущества</h2>
+					<h2 class="section-title wow fadeInUp">Наши преимущества</h2>
 
 					<div class="advantages-content">
-						<div class="advantages-content__item content-item">
+						<div class="advantages-content__item content-item wow fadeInUp">
 							<img src="img/advantages/1.svg" alt="Бесплатная доставка" class="content-item__icon">
 
 							<h3 class="content-item__title">Бесплатная доставка</h3>
@@ -156,7 +170,7 @@
 							<p class="content-item__text">Доставим бесплатно от&nbsp;30.000 руб</p>
 						</div>
 
-						<div class="advantages-content__item content-item">
+						<div class="advantages-content__item content-item wow fadeInUp" data-wow-delay="0.2s">
 							<img src="img/advantages/2.svg" alt="Онлайн поддержка" class="content-item__icon">
 
 							<h3 class="content-item__title">Онлайн поддержка</h3>
@@ -164,7 +178,7 @@
 							<p class="content-item__text">24/7 онлайн поддержка</p>
 						</div>
 
-						<div class="advantages-content__item content-item">
+						<div class="advantages-content__item content-item wow fadeInUp" data-wow-delay="0.4s">
 							<img src="img/advantages/3.svg" alt="Возврат товара" class="content-item__icon">
 
 							<h3 class="content-item__title">Возврат товара</h3>
@@ -207,7 +221,10 @@
 								<div class="block__item-wrap">
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img wow fadeInUp">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная</h4>
@@ -217,7 +234,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img wow fadeInUp" data-wow-delay="0.2s">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная</h4>
@@ -227,7 +247,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img wow fadeInUp" data-wow-delay="0.4s">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная</h4>
@@ -237,7 +260,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img wow fadeInUp" data-wow-delay="0.6s">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная</h4>
@@ -251,7 +277,10 @@
 								<div class="block__item-wrap">
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-2</h4>
@@ -261,7 +290,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-2</h4>
@@ -271,7 +303,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-2</h4>
@@ -281,7 +316,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-2</h4>
@@ -295,7 +333,10 @@
 								<div class="block__item-wrap">
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-3</h4>
@@ -305,7 +346,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-3</h4>
@@ -315,7 +359,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-3</h4>
@@ -325,7 +372,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 
 										</a>
 										<h4 class="block__item-title">Дверь входная-3</h4>
@@ -339,7 +389,10 @@
 								<div class="block__item-wrap">
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-4</h4>
@@ -349,7 +402,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-4</h4>
@@ -359,7 +415,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-4</h4>
@@ -369,7 +428,10 @@
 
 									<div class="block__item-box">
 										<a href="#">
-											<img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+											<picture>
+									      <source srcset="img/trend/door.webp 1x" type="image/webp">
+									      <img src="img/trend/door.jpg" alt="Дверь" class="block__item-img">
+					    				</picture>
 										</a>
 
 										<h4 class="block__item-title">Дверь входная-4</h4>
@@ -389,9 +451,12 @@
 
 					<div class="recommend-content">
 						<div class="recommend-content__item">
-							<div class="recommend-content__img ibg active">
+							<div class="recommend-content__img ibg active wow fadeInUp">
 								<a href="#">
-									<img src="img/recommend/1.jpg" alt="Видео-1">
+									<picture>
+							      <source srcset="img/recommend/1.webp 1x" type="image/webp">
+							      <img src="img/recommend/1.jpg" alt="Видео-1">
+			    				</picture>
 								</a>
 
 								<button class="video-content__btn">
@@ -405,9 +470,12 @@
 						</div>
 
 						<div class="recommend-content__item">
-							<div class="recommend-content__img ibg">
+							<div class="recommend-content__img ibg wow fadeInUp"  data-wow-delay="0.2s">
 								<a href="#">
-									<img src="img/recommend/2.jpg" alt="Видео-2">
+									<picture>
+							      <source srcset="img/recommend/2.webp 1x" type="image/webp">
+							      <img src="img/recommend/2.jpg" alt="Видео-2">
+			    				</picture>
 								</a>
 
 								<button class="video-content__btn">
@@ -421,9 +489,12 @@
 						</div>
 
 						<div class="recommend-content__item">
-							<div class="recommend-content__img ibg">
+							<div class="recommend-content__img ibg wow fadeInUp"  data-wow-delay="0.4s">
 								<a href="#">
-									<img src="img/recommend/1.jpg" alt="Видео-1">
+									<picture>
+							      <source srcset="img/recommend/1.webp 1x" type="image/webp">
+							      <img src="img/recommend/1.jpg" alt="Видео-1">
+			    				</picture>
 								</a>
 
 								<button class="video-content__btn">
@@ -452,157 +523,142 @@
 
 				<div class="instagram__images">
 					<a href="#">
-						<img src="img/instagram/1.jpg" alt="Фото-1" class="instagram__img">
+						<picture>
+				      <source srcset="img/instagram/1.webp 1x" type="image/webp">
+				      <img src="img/instagram/1.jpg" alt="Фото-1" class="instagram__img wow fadeIn">
+						</picture>
 					</a>
 
 					<a href="#">
-						<img src="img/instagram/2.jpg" alt="Фото-2" class="instagram__img">
+						<picture>
+				      <source srcset="img/instagram/2.webp 1x" type="image/webp">
+				      <img src="img/instagram/2.jpg" alt="Фото-2" class="instagram__img wow fadeIn"  data-wow-delay="0.2s">
+						</picture>
 					</a>
 
 					<a href="#">
-						<img src="img/instagram/3.jpg" alt="Фото-3" class="instagram__img">
+						<picture>
+				      <source srcset="img/instagram/3.webp 1x" type="image/webp">
+				      <img src="img/instagram/3.jpg" alt="Фото-3" class="instagram__img wow fadeIn"  data-wow-delay="0.4s">
+						</picture>
 					</a>
 
 					<a href="#">
-						<img src="img/instagram/4.jpg" alt="Фото-4" class="instagram__img">
+						<picture>
+				      <source srcset="img/instagram/4.webp 1x" type="image/webp">
+				      <img src="img/instagram/4.jpg" alt="Фото-4" class="instagram__img wow fadeIn"  data-wow-delay="0.6s">
+						</picture>
 					</a>
 
 					<a href="#">
-						<img src="img/instagram/5.jpg" alt="Фото-5" class="instagram__img">
+						<picture>
+				      <source srcset="img/instagram/5.webp 1x" type="image/webp">
+				      <img src="img/instagram/5.jpg" alt="Фото-5" class="instagram__img wow fadeIn"  data-wow-delay="0.8s">
+						</picture>
 					</a>
 				</div>
 			</section>
-<footer class="footer">
-	<div class='container'>
-		<div class="footer__row">
-			<div class="footer-column">
-        <a href="#" class="logo footer__logo-img">
-          <img src="img/logo.png" alt="Логотип">
-        </a>
 
-        <div class="footer__logo-text">Официальный сайт фабрики</div>
+			<footer class="footer">
+				<div class='container'>
+					<div class="footer__row">
+						<div class="footer-column">
+			        <a href="#" class="logo footer__logo-img">
+			          <img src="img/logo.png" alt="Логотип">
+			        </a>
 
-        <div class="footer__contact">
-          <div class="footer__contact-title">Контакты</div>
+			        <div class="footer__logo-text">Официальный сайт фабрики</div>
 
-          <ul>
-            <li class="footer__contact-phone">
-              <a href="tel:+78007757534">8 800-775-75-34</a>
-            </li>
+			        <div class="footer__contact">
+			          <div class="footer__contact-title">Контакты</div>
 
-            <li class="footer__contact-phone">
-              <a href="tel:+78007757534">8 800-775-75-34</a>
-            </li>
-          </ul>
-        </div> 
-      </div>
+			          <ul>
+			            <li class="footer__contact-phone">
+			              <a href="tel:+78007757534">8 800-775-75-34</a>
+			            </li>
 
-      <div class="footer-column footer__menu">
-        <div class="footer__menu-title">О нас</div>
+			            <li class="footer__contact-phone">
+			              <a href="tel:+78007757534">8 800-775-75-34</a>
+			            </li>
+			          </ul>
+			        </div> 
+			      </div>
 
-        <ul class="footer__menu-list">
-          <li class="footer__menu-item">
-            <a href="#" class="footer__menu-link">Каталог</a>
-          </li>
+			      <div class="footer-column footer__menu">
+			        <div class="footer__menu-title">О нас</div>
 
-          <li class="footer__menu-item">
-            <a href="#" class="footer__menu-link">Статьи</a>
-          </li>
+			        <ul class="footer__menu-list">
+			          <li class="footer__menu-item">
+			            <a href="#" class="footer__menu-link">Каталог</a>
+			          </li>
 
-          <li class="footer__menu-item">
-            <a href="#" class="footer__menu-link">Фото</a>
-          </li>
+			          <li class="footer__menu-item">
+			            <a href="#" class="footer__menu-link">Статьи</a>
+			          </li>
 
-          <li class="footer__menu-item">
-            <a href="#" class="footer__menu-link">Где купить</a>
-          </li>
+			          <li class="footer__menu-item">
+			            <a href="#" class="footer__menu-link">Фото</a>
+			          </li>
 
-          <li class="footer__menu-item">
-            <a href="#" class="footer__menu-link">Дизайнеры</a>
-          </li>
-        </ul>
-      </div>
+			          <li class="footer__menu-item">
+			            <a href="#" class="footer__menu-link">Где купить</a>
+			          </li>
 
-      <div class="footer-column footer__search">
-        <div class="footer__search-title">Поиск по сайту</div>
+			          <li class="footer__menu-item">
+			            <a href="#" class="footer__menu-link">Дизайнеры</a>
+			          </li>
+			        </ul>
+			      </div>
 
-        <form action="" method="get" class="footer__form-search">
-          <label for="site-search" class="sr-only">Поиск по сайту:</label>
-          <input class="form-search__input" type="search" id="site-search" name="q" aria-label="Поиск по сайту" placeholder="Введите название">
+			      <div class="footer-column footer__search">
+			        <div class="footer__search-title">Поиск по сайту</div>
 
-          <button class="btn form-search__btn">Поиск</button>
-        </form>
-      </div>
+			        <form action="" method="get" class="footer__form-search">
+			          <label for="site-search" class="sr-only">Поиск по сайту:</label>
+			          <input class="form-search__input" type="search" id="site-search" name="q" aria-label="Поиск по сайту" placeholder="Введите название">
 
-      <div class="footer-column footer__social">
-        <div class="footer__social-title">Подписывайся</div>
+			          <button class="btn form-search__btn">Поиск</button>
+			        </form>
+			      </div>
 
-        <ul class="footer__social-list">
-          <li class="footer__social-item">
-            <span class="footer__social-ico footer__social-fb">1</span>
-            <a href="#" class="footer__social-link">Facebook</a>
-          </li>
+			      <div class="footer-column footer__social">
+			        <div class="footer__social-title">Подписывайся</div>
 
-          <li class="footer__social-item">
-            <span class="footer__social-ico footer__social-pint">1</span>
-            <a href="#" class="footer__social-link">Pinterest</a>
-          </li>
+			        <ul class="footer__social-list">
+			          <li class="footer__social-item">
+			            <span class="footer__social-ico footer__social-fb">1</span>
+			            <a href="#" class="footer__social-link">Facebook</a>
+			          </li>
 
-          <li class="footer__social-item">
-            <span class="footer__social-ico footer__social-tw">1</span>
-            <a href="#" class="footer__social-link">Twitter</a>
-          </li>
+			          <li class="footer__social-item">
+			            <span class="footer__social-ico footer__social-pint">1</span>
+			            <a href="#" class="footer__social-link">Pinterest</a>
+			          </li>
 
-          <li class="footer__social-item">
-            <span class="footer__social-ico footer__social-inst">1</span>
-            <a href="#" class="footer__social-link">Instagram</a>
-          </li>
-        </ul>
-      </div>
-		</div>
-	</div>
-</footer>
-<div class="copyright">
-  <p class="copyright-text">&#169; 2020 Sofiadoors</p>
+			          <li class="footer__social-item">
+			            <span class="footer__social-ico footer__social-tw">1</span>
+			            <a href="#" class="footer__social-link">Twitter</a>
+			          </li>
 
-  <a href="#" class="copyright-link">Политика конфиденциальности</a>
-</div>		</div>
-<div class="popup">
-	<div class="popup-table table">
-		<div class="cell">
-			<div class="popup-content">
-				<div class="popup-close"></div>
-				<div class="popup__title"></div>
-				<div class="popup__txt"></div>
-				<form action="#" class="popup-form form">
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
+			          <li class="footer__social-item">
+			            <span class="footer__social-ico footer__social-inst">1</span>
+			            <a href="#" class="footer__social-link">Instagram</a>
+			          </li>
+			        </ul>
+			      </div>
 					</div>
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
-					</div>
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
-					</div>
-					<div class="form-button">
-						<button type="submit" class="form__btn btn fw"></button>
-					</div>
-				</form>
+				</div>
+			</footer>
+
+			<div class="copyright">
+			  <p class="copyright-text">&#169; 2020 Sofiadoors</p>
+
+			  <a href="#" class="copyright-link">Политика конфиденциальности</a>
 			</div>
 		</div>
-	</div>
-</div>
-<div class="popup popup-video">
-	<div class="popup-table table">
-		<div class="cell">
-			<div class="popup-close"></div>
-			<div class="popup-video__value video"></div>
-		</div>
-	</div>
-</div><script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"></script> -->
-<script src="js/vendors.js"></script>
-<script src="js/main.js"></script>
-<script src="js/custom.js" ></script>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
