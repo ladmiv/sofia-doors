@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="format-detection" content="telephone=no">
 		<link rel="stylesheet" href="css/animate.min.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style.min.css">
 		<link rel="shortcut icon" href="favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,18 +21,18 @@
 			<header class="header">
 				<div class="container">
 					<div class="header__body">
-						<div class="header__column header-logo__wrap">
+						<div class="header__column header-wrap">
 							<a href="#" class="logo header-logo">
 								<img src="img/logo.png" alt="Логотип">
 							</a>
 
-							<p class="header-logo__text">Официальный сайт фабрики</p>
+							<p class="header-logo-text">Официальный сайт фабрики</p>
 						</div>
 
 						<div class="header__column">
-							<form action="" method="get" class="form-search">
-								<label for="site-search" class="sr-only">Поиск по сайту:</label>
-								<input class="form-search__input" type="search" id="site-search" name="q" aria-label="Поиск по сайту" placeholder="Введите название">
+							<form action="#" method="get" class="form-search">
+								<label for="header-search" class="sr-only">Поиск по сайту:</label>
+								<input class="form-search__input" type="search" id="header-search" name="q" aria-label="Поиск по сайту" placeholder="Введите название">
 
 								<button class="btn form-search__btn">Поиск</button>
 							</form>
@@ -40,7 +40,7 @@
 
 						<div class="header__column">
 
-							<div class="shopping-cart__wrap">
+							<div class="shopping-cart-hide">
 								<a href="#" class="shopping-cart"></a>
 							</div>
 						</div>
@@ -48,7 +48,7 @@
 						<div class="header__column">
 							<a href="tel:+74952660848" class="header-phone">8 (495) 266-08-48</a>
 
-							<p class="header-phone__text">Звоните с 09:00 до 21:00 или&nbsp;<a href="#">закажите обратный звонок</a>
+							<p class="header-text">Звоните с 09:00 до 21:00 или&nbsp;<a href="#">закажите обратный звонок</a>
 							</p>
 						</div>
 
@@ -90,7 +90,7 @@
 									</li>
 
 									<li class="menu__body-item">
-										<a href="#" class="nav-list__link">Контакты</a>
+										<a href="#" class="menu__body-link">Контакты</a>
 									</li>
 								</ul>
 							</nav>
@@ -189,7 +189,7 @@
 				</div>
 			</section>
 
-			<section class="video-page">
+			<section class="video-page video-content">
 				<div class="video-page__content video-content">
 					<button class="video-content__btn">
 						<span class="video-content__play"></span>
@@ -203,10 +203,10 @@
 
 			<section class="trend">
 				<div class="container">
-					<h2 class="section-title">Сейчас в тренде</h2>
+					<h2 class="section-title wow fadeInUp">Сейчас в тренде</h2>
 
-					<div class="block__tabs tabs">
-						<ul class="block__nav">
+					<div class="block block__tabs tabs">
+						<ul class="block__nav tab">
 							<li class="block__navitem tab__navitem active"><h3>Двери</h3></li>
 							
 							<li class="block__navitem tab__navitem"><h3>Дизайн</h3></li>
@@ -216,7 +216,7 @@
 							<li class="block__navitem tab__navitem"><h3>Дизайн</h3></li>
 						</ul>
 
-						<div class="block__items">
+						<div class="block__items tab">
 							<div class="block__item tab__item active">
 								<div class="block__item-wrap">
 									<div class="block__item-box">
@@ -447,9 +447,9 @@
 
 			<section class="recommend">
 				<div class="container">
-					<h2 class="section-title">Мы рекомендуем</h2>
+					<h2 class="section-title wow fadeInUp">Мы рекомендуем</h2>
 
-					<div class="recommend-content">
+					<div class="recommend-content video-content">
 						<div class="recommend-content__item">
 							<div class="recommend-content__img ibg active wow fadeInUp">
 								<a href="#">
@@ -514,9 +514,9 @@
 
 			<section class="instagram">
 				<div class="container instagram-box">
-					<h2 class="section-title instagram__title">Подписывайся INSTAGRAM</h2>
+					<h2 class="section-title instagram__title wow fadeInUp">Подписывайся INSTAGRAM</h2>
 
-					<span class="instagram__subtitle">@sofiadoors</span>
+					<span class="instagram__subtitle wow fadeIn" data-wow-delay="0.4s">@sofiadoors</span>
 
 					<p class="instagram__text">В нашем Instagram аккаунте вы сможете посмотреть наши работы, а так же дизайнерские варианты решения в интерьере заказчиков :)</p>
 				</div>
@@ -613,9 +613,9 @@
 			      <div class="footer-column footer__search">
 			        <div class="footer__search-title">Поиск по сайту</div>
 
-			        <form action="" method="get" class="footer__form-search">
-			          <label for="site-search" class="sr-only">Поиск по сайту:</label>
-			          <input class="form-search__input" type="search" id="site-search" name="q" aria-label="Поиск по сайту" placeholder="Введите название">
+			        <form action="#" method="get" class="form-search footer__form-search">
+			          <label for="footer-search" class="sr-only">Поиск по сайту:</label>
+			          <input class="form-search__input" type="search" id="footer-search" name="q" aria-label="Поиск по сайту" placeholder="Введите название">
 
 			          <button class="btn form-search__btn">Поиск</button>
 			        </form>

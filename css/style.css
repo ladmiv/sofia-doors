@@ -942,10 +942,10 @@ body.ie .ibg img {
 .header-logo {
 	margin-bottom: 20px;
 }
-.header-logo__wrap {
+.header-wrap {
 	text-align: right;
 }
-.header-logo__text {
+.header-logo-text {
 	color: #b6adad;
 	font-size: 15px;
 	font-weight: 400;
@@ -990,7 +990,7 @@ body.ie .ibg img {
 		background-image: none;
 	}
 }
-.header-phone__text {
+.header-text {
 	max-width: 147px;
 	color: #afafaf;
 	font-size: 9px;
@@ -999,11 +999,11 @@ body.ie .ibg img {
 	line-height: 14px;
 }
 @media (max-width: 570px) {
-	.header-phone__text {
+	.header-text {
 		display: none;
 	}
 }
-.header-phone__text a {
+.header-text a {
 	text-decoration: underline;
 }
 
@@ -1368,7 +1368,7 @@ body.ie .ibg img {
 	background-size: cover;
 }
 @media (max-width: 390px) {
-	.shopping-cart__wrap {
+	.shopping-cart-hide {
 		display: none;
 	}
 }
