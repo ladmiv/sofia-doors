@@ -1326,7 +1326,7 @@ body.ie .ibg img {
 	max-width: 400px;
 }
 @media (max-width: 991.98px) {
-	.form-search {
+	.form-search.form-search__hide {
 		display: none;
 	}
 }
